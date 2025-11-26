@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'services/constants.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
 import 'admin/admin_login.dart';
 import 'pages/login_page.dart';
@@ -12,6 +13,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   try {
+    await dotenv.load();
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );
@@ -23,7 +25,7 @@ void main() async {
   } catch (e) {
     runApp(
       MaterialApp(
-        home: Scaffold(body: Center(child: Text('Firebase init error: $e'))),
+        home: Scaffold(body: Center(child: Text('Init error: $e'))),
       ),
     );
   }
