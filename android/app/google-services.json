@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "256636913566",
+    "project_id": "storelocator-4b91b",
+    "storage_bucket": "storelocator-4b91b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256636913566:android:8a3f1cb2edb74bbfb1b88f",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj9x_69OsnYkKACE5oioiO3fnyen9cuHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

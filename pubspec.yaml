@@ -1,0 +1,58 @@
+name: e_commerce_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  curved_navigation_bar: ^1.0.6  
+
+  firebase_core: ^3.6.0      
+  firebase_auth: ^5.3.1      
+  cloud_firestore: ^5.4.4
+  shared_preferences: ^2.5.3
+  firebase_storage: ^12.4.10
+  image_picker: ^1.2.1
+  http: ^1.6.0
+  flutter_stripe: ^12.1.1
+  cached_network_image: ^3.2.3
+
+    
+  cupertino_icons: ^1.0.8
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/watch.jpg
+    - assets/images/headphones.jpg
+    - assets/images/laptop.png
+    - assets/images/phone.jpg
+    - assets/images/boy.png
+    - assets/images/landing.jpg
+    - assets/images/watch2.jpg
+    - assets/images/headphones2.jpg
+    - assets/images/laptop2.png
+    - assets/images/login.png
+    - assets/images/smart_watch.png
+    - assets/images/classic_watch.png
+    - assets/images/sport_watch.png
+    - assets/images/iphone16.png
+    - assets/images/galaxy_s32.png
+    - assets/images/REDMI.png
+    - assets/images/on_ear_headphones.png
+    - assets/images/earbuds.png
+    - assets/images/over_ear_noise_cancelling.png
+    - assets/images/default.png
