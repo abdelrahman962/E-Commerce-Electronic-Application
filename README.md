@@ -2,7 +2,7 @@
 
 # 🛒 E-Commerce App (Flutter + Firebase + Stripe + Admin Panel)
 
-A complete e-commerce application built with **Flutter** and powered by **Firebase**.
+A complete e-commerce electronic devices application built with **Flutter** and powered by **Firebase**.
 It includes a full shopping experience for users and a dedicated admin panel to manage products and track orders.
 Perfect for learning, showcasing, or turning into a real store.
 
@@ -23,9 +23,8 @@ Perfect for learning, showcasing, or turning into a real store.
 ### 🛠️ Admin Panel
 
 * Separate admin login
-* Add, edit, and delete products
+* Add, edit products
 * Categorize products
-* Upload images directly to Firebase Storage
 * Real-time view of all customer orders
 * Dashboard showing product and order stats
 
@@ -38,7 +37,6 @@ Perfect for learning, showcasing, or turning into a real store.
 | Flutter          | UI & app development         |
 | Firebase Auth    | Authentication               |
 | Cloud Firestore  | Products, orders, users data |
-| Firebase Storage | Product image uploads        |
 | Stripe API       | Secure online payments       |
 
 ---
@@ -55,3 +53,4 @@ lib/
 ```
 
 ---
+
