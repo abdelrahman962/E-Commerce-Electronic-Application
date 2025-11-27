@@ -31,15 +31,12 @@ class _AddProductState extends State<AddProduct> {
   final List<String> categories = ["Watch", "Headphones", "Laptop"];
 
   final List<String> networkImages = [
-    'https://i.postimg.cc/ZRm1Js66/smart-watch.png',
     'https://i.postimg.cc/tgWKQGZS/classic_watch.png',
     'https://i.postimg.cc/Ss4wm1c6/sport_watch.png',
-    'https://i.postimg.cc/K8n6CyMh/i_Phone_16_Pro_Black_Titanium_Flat_cropped.webp',
-    'https://i.postimg.cc/SKCBFb25/galaxy_s32.png',
-    'https://i.postimg.cc/d1FzJNGT/REDMI.png',
     'https://i.postimg.cc/q7yPVH6g/On_ear_headphones.png',
     'https://i.postimg.cc/DzL9k3JC/earbuds.png',
     'https://i.postimg.cc/wvzS94Dg/Over_ear_noise_cancelling.png',
+    'https://i.postimg.cc/ZR99vNKt/laptop2.webp'
   ];
 
   String? selectedImage;
@@ -114,7 +111,6 @@ class _AddProductState extends State<AddProduct> {
         );
       }
 
-      if (mounted) Navigator.pop(context); 
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text("Error: $e"), backgroundColor: Colors.red),

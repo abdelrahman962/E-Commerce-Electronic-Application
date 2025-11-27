@@ -125,16 +125,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       ),
                     ),
-                    const SizedBox(height: 30),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.end,
-                      children: [
-                        Text(
-                          "Forgot password?",
-                          style: AppWidget.lightTextFieldStyle(),
-                        ),
-                      ],
-                    ),
+              
                     const SizedBox(height: 30),
                     Center(
                       child: GestureDetector(

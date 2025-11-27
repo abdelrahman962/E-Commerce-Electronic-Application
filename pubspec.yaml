@@ -58,3 +58,4 @@ flutter:
     - assets/images/earbuds.png
     - assets/images/over_ear_noise_cancelling.png
     - assets/images/default.png
+    - .env
